@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
+ * main Entry point
  *
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -16,14 +15,14 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			 putchar(c);
-			 c++;
+			putchar(c);
+			c++;
 		}
-     	while
+	while
 		(d <= 'z') {
-		 	putchar(d);
-		 	d++;
-       		}
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
